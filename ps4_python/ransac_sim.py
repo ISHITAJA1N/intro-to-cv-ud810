@@ -13,6 +13,7 @@ def ransac_sim(simA, simB):
     best_sim = []
     # find consensus of translation between a random keypoint and the rest for
     # a number of times to find the best match regarding translation
+    #######ELABORATEEEEEE  PLZZZ
     for i in range(100):
         idxs = random.sample(range(len(matches)), 2)
         # calc similarity between kp1 and kp2
